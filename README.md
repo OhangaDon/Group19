@@ -74,3 +74,38 @@ This OpenGL program demonstrates the Cohen-Sutherland 3D line clipping algorithm
 Language: C++
 Libraries: OpenGL, GLUT, GLU
 Algorithm: Cohen-Sutherland 3D Clipping
+```
+# 3D Line Clipping using Cyrus-Beck Algorithm
+
+![3D Clipping Visualization](screenshot.png) *(replace with actual screenshot)*
+
+## Description
+This OpenGL program demonstrates the Cyrus-Beck 3D line clipping algorithm against a rectangular box. The visualization includes:
+- A 3D clipping box with labeled dimensions
+- An original line segment (red)
+- The clipped portion of the line (cyan)
+- Real-time coordinate display of all points
+- Continuous rotation for better 3D understanding
+
+## Key Features
+- **3D Cyrus-Beck Implementation**: Uses parametric line clipping with plane normals
+- **Interactive Visualization**:
+  - Continuously rotating view (360° automatic rotation)
+  - Clearly marked original and clipped points
+- **Informative Display**:
+  - Coordinate labels for all key points
+  - Dimension labels for the clipping box (5×4×3 units)
+- **Visual Differentiation**:
+  - Original line (red)
+  - Clipped segment (cyan with yellow endpoints)
+  - Clipping box (gray wireframe)
+  - 3D axes (red=X, green=Y, blue=Z)
+
+## Technical Implementation
+```plaintext
+Language: C++
+Libraries: OpenGL, GLUT, GLU
+Algorithm: Cyrus-Beck 3D Clipping (parametric method)
+Data Structures: 
+  - Plane struct (normal vector + offset)
+  - Vector of planes for clipping region
