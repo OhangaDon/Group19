@@ -47,7 +47,6 @@ g++ main.cpp -o main -lGL -lGLU -lglut
 
 # 3D Line Clipping using Cohen-Sutherland Algorithm
 
-![3D Clipping Visualization](screenshot.png) *(replace with actual screenshot)*
 
 ## Description
 This OpenGL program demonstrates the Cohen-Sutherland 3D line clipping algorithm against a rectangular box. The visualization includes:
