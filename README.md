@@ -77,8 +77,6 @@ Algorithm: Cohen-Sutherland 3D Clipping
 ```
 # 3D Line Clipping using Cyrus-Beck Algorithm
 
-![3D Clipping Visualization](screenshot.png) *(replace with actual screenshot)*
-
 ## Description
 This OpenGL program demonstrates the Cyrus-Beck 3D line clipping algorithm against a rectangular box. The visualization includes:
 - A 3D clipping box with labeled dimensions
