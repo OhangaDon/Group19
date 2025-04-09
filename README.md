@@ -43,7 +43,7 @@ This OpenGL program demonstrates the concepts of 3D clipping and viewing by visu
 ### Linux
 ```bash
 g++ main.cpp -o main -lGL -lGLU -lglut
-
+```
 
 # 3D Line Clipping using Cohen-Sutherland Algorithm
 
